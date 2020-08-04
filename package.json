@@ -1,0 +1,22 @@
+{
+  "name": "xhamster-gallery-downloader",
+  "version": "0.0.1",
+  "description": "download xhamster galleries by gallery link",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "download": "^8.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "xhamster",
+    "crawler"
+  ],
+  "author": "alirezainjast",
+  "license": "ISC"
+}
