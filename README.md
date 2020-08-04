@@ -5,6 +5,7 @@ XHGD is a web crawler using [Selenium](https://www.selenium.dev/) to download [x
 ## Usage
 
 make sure you installed [Node.js](https://nodejs.org/) on you computer.
+also make sure to download and copy Firefox [driver](https://www.npmjs.com/package/selenium-webdriver#installation) into your [PATH](http://en.wikipedia.org/wiki/PATH_%28variable%29)
 
 ### config .env file
 
