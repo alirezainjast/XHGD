@@ -28,6 +28,7 @@ const extractLink = (parsedHTML) =>{
     let url = process.env.GALLERY_URL;
     let driver = await new Builder()
     .forBrowser('firefox')
+    .usingServer('http://localhost:4444/wd/hub')
     .build()
 
     try{
